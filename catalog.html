@@ -4,12 +4,13 @@
   <head>
     <meta charset="utf-8">
     <title>Каталог</title>
+    <link href="styles/styles.css" rel="stylesheet">
   </head>
 
   <body>
     <header class="page-header" data-test="header">
       <a class="page-header-logo" aria-current="page" href="index.html">
-        <img class="page-header-logo-img" src="images/logo.svg" width="140" height="70" alt="Логотип сайта города Седона">
+        <img class="page-header-logo-img" src="images/logo/logo-sedona.svg" width="140" height="70" alt="Логотип сайта города Седона">
       </a>
       <nav class="navigation">
         <ul class="navigation-list">
@@ -47,8 +48,7 @@
         <h1 class="inner-header-title">Гостиницы Седоны</h1>
         <ol class="breadcrumbs">
           <li class="breadcrumbs-item">
-            <a class="breadcrumbs-link" href="index.html">
-              <img class="breadcrumbs-link-img" src="#" alt="Дом">
+            <a class="breadcrumbs-link" href="index.html">Главная
             </a>
           </li>
           <li class="breadcrumbs-item">
@@ -149,24 +149,24 @@
         <ul class="switcher-button-list">
           <li class="switcher-button-list-item">
             <a href="#" class=" button-light">
-              <span class="visually-hidden">Показать список</span>
+              <span class="visually-hidden">Значки</span>
             </a>
           </li>
           <li class="switcher-button-list-item">
             <a class="switcher-button-list-item-link switcher-button-list-item-link-active" href="#">
-              <span class="visually-hidden">Показать карточки</span>
+              <span class="visually-hidden">Слайдер</span>
             </a>
           </li>
           <li class="switcher-button-list-item">
             <a class="switcher-button-list-item-link" href="#">
-              <span class="visually-hidden">Показать карточки</span>
+              <span class="visually-hidden">Список</span>
             </a>
           </li>
         </ul>
         <ul class="product-list">
           <li class="product-card">
             <a class="product-card-link" href="#" tabindex="-1">
-              <img class="product-card-image" src="#" alt="Звездное небо в расщелине гор">
+              <img class="product-card-image" src="images/catalog/hotel-1.jpg" width="300" height="212" alt="Звездное небо в расщелине гор">
             </a>
             <a class="product-card-link" href="#">
               <h3 class="product-card-title">Amara Resort & Spa</h3>
@@ -186,7 +186,7 @@
           </li>
           <li class="product-card">
             <a class="product-card-link" href="#" tabindex="-1">
-              <img class="product-card-image" src="#" alt="Радуга над горным хребтом">
+              <img class="product-card-image" src="images/catalog/hotel-2.jpg" width="300" height="212" alt="Радуга над горным хребтом">
             </a>
             <a class="product-card-link" href="#">
               <h3 class="product-card-title">Villas at Poco Diablo</h3>
@@ -206,7 +206,7 @@
           </li>
           <li class="product-card">
             <a class="product-card-link" href="#" tabindex="-1">
-              <img class="product-card-image" src="#" alt="Горы на фоне голубого неба">
+              <img class="product-card-image" src="images/catalog/hotel-3.jpg" width="300" height="212" alt="Горы на фоне голубого неба">
             </a>
             <a class="product-card-link" href="#">
               <h3 class="product-card-title">Desert Quail Inn</h3>
@@ -226,7 +226,7 @@
           </li>
           <li class="product-card">
             <a class="product-card-link" href="#" tabindex="-1">
-              <img class="product-card-image" src="#" alt="Гора на фоне звездного неба">
+              <img class="product-card-image" src="images/catalog/hotel-4.jpg" width="300" height="212" alt="Гора на фоне звездного неба">
             </a>
             <a class="product-card-link" href="#">
               <h3 class="product-card-title">GreenTree Inn</h3>
@@ -271,6 +271,17 @@
           </li>
         </ul>
       </section>
+      <section class="subscribe" data-test="subscribe">
+        <h2 class="subscribe-title">Подпишитесь на рассылку</h2>
+        <p class="subscribe-text">
+          Только полезная информация и никакого спама, честное бойскаутское!
+        </p>
+        <form class="subscribe-form" action="http://echo.htmlacademy.ru/" method="post">
+          <label class="visually-hidden" for="subscribe-email">Укажите ваш e-mail</label>
+          <input class="subscribe-form-input" type="email" name="subscribe-user-email" id="subscribe-email" placeholder="Ваш e-mail">
+          <button type="submit">Подписаться</button>
+        </form>
+      </section>
     </main>
     <footer class="footer" data-test="footer">
       <section class="social">
@@ -300,7 +311,6 @@
       <section class="site">
         <h2 class="visually-hidden">Логотип htmlacademy</h2>
         <a class="site-logo" href="https://htmlacademy.ru/">
-          <img class="logo" src="img/htmlacademy-logo.svg" width="115" height="33" alt="Логотип html.academy">
         </a>
       </section>
     </footer>
