@@ -44,7 +44,7 @@ img {
 .container {
   width: 1200px;
   margin: 0 auto;
-  padding: 0 40px;
+//   padding: 0 40px;
 }
 
 body {
@@ -98,7 +98,7 @@ body {
 }
 
 .navigation-user-link--btn {
-  padding: 8px 50px 8px 50px;
+//   padding: 8px 50px 8px 50px;
   background-color:  #756157;
   border-radius: 4px;
   font-size: 16px;
@@ -125,8 +125,8 @@ body {
 
 /* info */
 .info-title {
-  max-width: 900px;
-  padding: 0 20px;
+//   max-width: 900px;
+//   padding: 0 20px;
   font-size: 30px;
   font-weight: 700;
   line-height: 36px;
@@ -136,7 +136,7 @@ body {
 }
 
 .info-text {
-  padding: 0 20px;
+//   padding: 0 20px;
   font-size: 22px;
   line-height: 26px;
   text-align: center;
@@ -153,8 +153,8 @@ body {
 }
 
 .info-item-title {
-  max-width: 230px;
-  padding: 5px;
+//   max-width: 230px;
+//   padding: 5px;
   font-size: 24px;
   font-weight: 700;
   line-height: 28px;
@@ -169,14 +169,14 @@ body {
 }
 
 .info-item-text {
-  max-width: 230px;
-  padding: 5px;
+//   max-width: 230px;
+//   padding: 5px;
   text-align: center;
 }
 
 /* advantages */
 .advantages {
-  max-width: 500px;
+//   max-width: 500px;
   margin: 0 auto;
 }
 .advantages-title {
@@ -232,7 +232,7 @@ body {
 
 /* hotel-search */
 .hotel-search {
-  max-width: 592px;
+//   max-width: 592px;
   margin: 0 auto;
 }
 
@@ -253,9 +253,9 @@ body {
 }
 
 .hotel-search-btn {
-  width: 376px;
+//   width: 376px;
   height: 52px;
-  padding: 8px 50px 8px 50px;
+//   padding: 8px 50px 8px 50px;
   border-radius: 4px;
 
   color: var(--basic-white);
@@ -281,7 +281,7 @@ body {
 }
 
 .subscribe-text {
-  max-width: 475px;
+//   max-width: 475px;
   font-size: 22px;
   line-height: 26px;
   text-align: center;
@@ -289,14 +289,14 @@ body {
 }
 
 .subscribe-form-input {
-  width: 452px;
+//   width: 452px;
   height: 52px;
-  padding: 12px, 20px;
+//   padding: 12px 20px;
   background: #F2F2F2;
 
   border-radius: 4px 0 0 4px;
   line-height: 24px;
-  border:none;
+//   border:none;
 }
 
 .subscribe-form-btn {
@@ -395,7 +395,7 @@ text-align: center;
 .button {
   width: 191px;
   height: 36px;
-  padding: 8px 50px;
+//   padding: 8px 50px;
   background: #82B3D3;
   font-size: 16px;
   font-weight: 700;
@@ -426,9 +426,9 @@ text-align: center;
 
 
 .select-control {
-  width: 292px;
+//   width: 292px;
   height:49px;
-  padding: 10px 20px;
+//   padding: 10px 20px;
   border-radius: 4px;
   border: 2px solid #E5E5E5;
   font-family: inherit;
@@ -437,7 +437,7 @@ text-align: center;
 }
 
 .product-card {
-  padding: 20px;
+//   padding: 20px;
   border-radius: 4px;
   border: 1px solid #E6E6E6;
 }
@@ -460,7 +460,7 @@ text-align: center;
 }
 
 .btn {
-padding: 8px 50px;
+// padding: 8px 50px;
 background: #756157;
 border-radius: 4px;
 }
@@ -476,7 +476,7 @@ border-radius: 4px;
 /* pagination */
 
 .pagination-link {
-  padding: 10px;
+//   padding: 10px;
   background: #82B3D3;
   border-radius: 4px;
   font-size: 20px;
