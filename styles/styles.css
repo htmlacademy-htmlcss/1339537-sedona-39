@@ -49,7 +49,7 @@ img {
 
 body {
   margin: 0;
-  background-color: #ffffff;
+  background-color: #63b3f9;
   font-family:  "PT Sans", Arial, sans-serif;
   font-size: 18px;
   font-weight: 400;
@@ -70,16 +70,16 @@ body {
   overflow: hidden;
 }
 
-.clear-ul {
-  list-style: none;
-  margin: 0;
-  padding: 0;
-}
+// .clear-ul {
+//   list-style: none;
+//   margin: 0;
+//   padding: 0;
+// }
 
 /* header */
 .page-header {
   color: var(--basic-black);
-  background-color: #000000;
+//   background-color: #000000;
 }
 
 .navigation-link {
@@ -296,7 +296,7 @@ body {
 
   border-radius: 4px 0 0 4px;
   line-height: 24px;
-//   border:none;
+  border:none;
 }
 
 .subscribe-form-btn {
@@ -354,7 +354,7 @@ text-align: center;
 .catalog-filter-group {
   padding: 0;
   margin: 0;
-  border: none;
+//   border: none;
 }
 .catalog-filter-title {
   font-size: 20px;
@@ -471,6 +471,15 @@ border-radius: 4px;
 
 .product-card-btn--active {
   background: #7DB54F;
+}
+
+.product-card-number {
+  background: #F2F2F2;
+  border-radius: 4px;
+  font-size: 16px;
+  line-height: 20px;
+  text-align: right;
+  text-transform: uppercase;
 }
 
 /* pagination */
