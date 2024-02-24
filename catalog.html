@@ -37,19 +37,18 @@
                 <span class="navigation-user-link--favorites">12</span>
               </a>
             </li>
-            <li class="navigation-user-item">
-              <a class="navigation-user-link navigation-user-link--btn" href="#"> Хочу сюда
-              </a>
-            </li>
           </ul>
+          <a class="navigation-user-link navigation-user-link--btn" href="#"> Хочу сюда
+          </a>
         </nav>
       </header>
       <main class="main-catalog" data-test="main">
-        <section class="inner-header">
+        <section class="inner-header" data-test="hero">
           <h1 class="inner-header-title">Гостиницы Седоны</h1>
           <ol class="breadcrumbs clear-ul">
             <li class="breadcrumbs-item">
-              <a class="breadcrumbs-link" href="index.html">Главная
+              <a class="breadcrumbs-link" href="index.html">
+                <span class="visually-hidden">Главная</span>
               </a>
             </li>
             <li class="breadcrumbs-item">
@@ -163,7 +162,7 @@
               </a>
             </li>
           </ul>
-          <ul class="product-list clear-ul">
+          <ul class="product-list clear-ul" data-test="catalog">
             <li class="product-card">
               <a class="product-card-link" href="#" tabindex="-1">
                 <img class="product-card-image" src="images/catalog/hotel-1.jpg" width="300" height="212" alt="Звездное небо в расщелине гор">
@@ -172,8 +171,8 @@
                 <h3 class="product-card--title">Amara Resort & Spa</h3>
               </a>
               <div class="product-card-wrap">
-                <span class="product-card-housing">Гостиница</span>
-                <span class="product-card-price">От 4000 ₽</span>
+                <p class="product-card-housing">Гостиница</p>
+                <p class="product-card-price">От 4000 ₽</p>
               </div>
               <div class="product-card-button">
                 <a class="product-card-btn btn" href="#">подробнее</a>
@@ -192,8 +191,8 @@
                 <h3 class="product-card--title">Villas at Poco Diablo</h3>
               </a>
               <div class="product-card-wrap">
-                <span class="product-card-housing">Гостиница</span>
-                <span class="product-card-price">От 5000 ₽</span>
+                <p class="product-card-housing">Гостиница</p>
+                <p class="product-card-price">От 5000 ₽</p>
               </div>
               <div class="product-card-button">
                 <a class="product-card-btn btn" href="#">подробнее</a>
@@ -212,8 +211,8 @@
                 <h3 class="product-card--title">Desert Quail Inn</h3>
               </a>
               <div class="product-card-wrap">
-                <span class="product-card-housing">Гостиница</span>
-                <span class="product-card-price">От 2500 ₽</span>
+                <p class="product-card-housing">Гостиница</p>
+                <p class="product-card-price">От 2500 ₽</p>
               </div>
               <div class="product-card-button">
                 <a class="product-card-btn btn" href="#">подробнее</a>
@@ -232,8 +231,8 @@
                 <h3 class="product-card--title">GreenTree Inn</h3>
               </a>
               <div class="product-card-wrap">
-                <span class="product-card-housing">Гостиница</span>
-                <span class="product-card-price">От 1500 ₽</span>
+                <p class="product-card-housing">Гостиница</p>
+                <p class="product-card-price">От 1500 ₽</p>
               </div>
               <div class="product-card-button">
                 <a class="product-card-btn btn" href="#">подробнее</a>
@@ -306,6 +305,7 @@
         <section class="site">
           <h2 class="visually-hidden">Логотип HTMLAcademy</h2>
           <a class="site-logo" href="https://htmlacademy.ru/">
+            <img class="site-logo-img" src="images/logo/logo-html-academy.svg" width="115" height="34" alt="Логотип HTMLAcademy">
           </a>
         </section>
       </footer>
