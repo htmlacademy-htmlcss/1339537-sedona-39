@@ -108,11 +108,11 @@ img {
 
 .page-header-logo {
   width: 170px;
-  margin-right: 6px;
+  margin-right: 26px;
 }
 
 .page-header--margin {
-  margin-bottom: 30px;
+  margin-bottom: 35px;
 }
 .navigation {
   width: 100%;
@@ -164,7 +164,7 @@ img {
 }
 
 .navigation-user-link--btn {
-  margin-left: 45px;
+  margin-left: 50px;
   // padding: 8px 50px 8px 50px;
   background-color:  var(--reddish-brown);
   // border-radius: 4px;
@@ -310,8 +310,8 @@ img {
 }
 
 .advantages-title {
-  margin-top: 28px;
-  margin-bottom: 25px;
+  margin-top: 30px;
+  margin-bottom: 30px;
   padding: 0;
   font-size: 30px;
   font-weight: 700;
@@ -363,7 +363,7 @@ img {
 
 .advantages-item-title {
   margin-top: 0;
-  margin-bottom: 20px;
+  // margin-bottom: 20px;
   padding: 0;
   font-size: 24px;
   font-weight: 700;
@@ -411,10 +411,16 @@ img {
 }
 
 .hotel-search-btn {
+  margin-bottom: 20px;
   // height: 52px;
   // padding: 8px 50px 8px 50px;
   // border-radius: 4px;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 20px;
+  text-align: center;
 
+  background: var(--reddish-brown);
   color: var(--basic-white);
   text-transform: uppercase;
 }
@@ -506,7 +512,7 @@ img {
 
 .social-list {
   width: 135px;
-  margin-right:249px;
+  margin-right:270px;
 }
 
 .contacts {
@@ -537,7 +543,6 @@ img {
 
 .inner-header-title {
   margin-top: 0;
-  margin-bottom: 8px;
   padding: 0;
   font-size: 60px;
   font-weight: 700;
