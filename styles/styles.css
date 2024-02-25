@@ -108,9 +108,12 @@ img {
 
 .page-header-logo {
   width: 170px;
-  margin-right: 46px;
+  margin-right: 6px;
 }
 
+.page-header--margin {
+  margin-bottom: 30px;
+}
 .navigation {
   width: 100%;
 }
@@ -161,7 +164,7 @@ img {
 }
 
 .navigation-user-link--btn {
-  margin-left: 33px;
+  margin-left: 45px;
   // padding: 8px 50px 8px 50px;
   background-color:  var(--reddish-brown);
   // border-radius: 4px;
@@ -289,6 +292,7 @@ img {
 }
 
 .info-item-text {
+  margin-bottom: 17px;
   // padding: 5px;
   padding: 0;
   text-align: center;
@@ -306,8 +310,8 @@ img {
 }
 
 .advantages-title {
-  margin-top: 30px;
-  margin-bottom: 20px;
+  margin-top: 28px;
+  margin-bottom: 25px;
   padding: 0;
   font-size: 30px;
   font-weight: 700;
@@ -319,6 +323,7 @@ img {
 }
 
 .advantages-text {
+  margin-bottom: 25px;
   padding: 0;
   font-size: 22px;
   line-height: 26px;
@@ -330,7 +335,7 @@ img {
   // grid-template-columns: repeat(3, 1fr);
   // justify-content: center;
   // align-items: center;
-  gap: 20px;
+  gap: 30px;
 }
 .advantages-item {
   position: relative;
@@ -385,7 +390,7 @@ img {
 
 .hotel-search--title {
   margin-top: 0;
-  margin-bottom: 20px;
+  margin-bottom: 25px;
   padding: 0;
   font-size: 30px;
   font-weight: 700;
@@ -398,7 +403,7 @@ img {
 
 .hotel-search-text {
   margin-top: 0;
-  margin-bottom: 54px;
+  margin-bottom: 34px;
   padding: 0;
   font-size: 22px;
   line-height: 26px;
@@ -431,6 +436,7 @@ img {
 
 .subscribe--title {
   margin: 0;
+  margin-bottom: 25px;
   padding: 0;
   font-size: 30px;
   font-weight: 700;
@@ -440,6 +446,7 @@ img {
 }
 
 .subscribe--text {
+  margin-top: 0;
   padding: 0;
   font-size: 22px;
   line-height: 26px;
@@ -498,7 +505,7 @@ img {
 }
 
 .social-list {
-  width: 142px;
+  width: 135px;
   margin-right:249px;
 }
 
@@ -529,7 +536,8 @@ img {
 }
 
 .inner-header-title {
-  margin-top: 35px;
+  margin-top: 0;
+  margin-bottom: 8px;
   padding: 0;
   font-size: 60px;
   font-weight: 700;
@@ -732,7 +740,7 @@ text-transform: uppercase;
   // justify-content: start;
   // align-items:center;
 }
-.pagination--link {
+.pagination-link {
   // padding: 10px;
   background: var(--basic-blue-gray);
   // border-radius: 4px;
@@ -743,8 +751,11 @@ text-transform: uppercase;
   text-align: center;
 }
 
-
-.pagination--link--active {
+.pagination-link-other {
+  background: transparent;
+  color: var(--basic-black);
+}
+.pagination-link--active {
   background: var(--basic-smoky-white);
   color: var(--basic-black);
 }
