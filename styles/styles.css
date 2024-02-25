@@ -108,7 +108,7 @@ img {
 
 .page-header-logo {
   width: 170px;
-  // margin-right: 46px;
+  margin-right: 46px;
 }
 
 .navigation {
@@ -184,7 +184,7 @@ img {
 }
 
 .hero-image {
-  display: block;
+  // display: block;
   // margin: 0 auto;
   // padding: 51px 50px 82px;
 }
@@ -200,6 +200,7 @@ img {
 }
 
 .info-title {
+  margin-top: 69px;
   // padding: 0 20px;
   padding: 0;
   font-size: 30px;
@@ -324,6 +325,7 @@ img {
   // grid-template-columns: repeat(3, 1fr);
   // justify-content: center;
   // align-items: center;
+  gap: 20px;
 }
 .advantages-item {
   position: relative;
@@ -339,7 +341,7 @@ img {
 }
 
 .advantages-item--food {
-  background-color: var(--basic-white);
+  // background-color: var(--basic-white);
   background-image: url("../images/icons/icon-food.svg");
   background-position: top center;
 }
@@ -350,6 +352,7 @@ img {
 }
 
 .advantages-item-title {
+  margin-top: 0;
   padding: 0;
   font-size: 24px;
   font-weight: 700;
@@ -361,6 +364,7 @@ img {
 }
 
 .advantages-item-text {
+  margin-bottom: 0;
   padding: 0;
   text-align: center;
 }
@@ -374,6 +378,7 @@ img {
 }
 
 .hotel-search--title {
+  margin-top: 88px;
   padding: 0;
   font-size: 30px;
   font-weight: 700;
@@ -416,6 +421,7 @@ img {
 }
 
 .subscribe--title {
+  margin: 0;
   padding: 0;
   font-size: 30px;
   font-weight: 700;
@@ -448,9 +454,8 @@ img {
   font-size: 18px;
   font-weight: 400;
   line-height: 24px;
-  // border:none;
+  border:none;
   background-color: var(--basic-smoky-white);
-  background-color: transparent;
   // border-radius: 4px 0 0 4px;
   color: rgb(0, 0, 0, 0.6);
 }
@@ -504,6 +509,7 @@ img {
 }
 
 .inner-header-title {
+  margin-top: 35px;
   padding: 0;
   font-size: 60px;
   font-weight: 700;
@@ -531,7 +537,7 @@ img {
 .catalog-filter {
   display: flex;
   flex-direction: row;
-  align-items: flex-start;
+  // align-items: flex-start;
 }
 
 .catalog-filter-group {
@@ -666,6 +672,7 @@ img {
 }
 
 .btn {
+margin-bottom: 46px;
 // padding: 8px 50px;
 background: var(--reddish-brown);
 // border-radius: 4px;
