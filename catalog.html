@@ -110,22 +110,26 @@
                 <legend class="catalog-filter-title">Стоимость, ₽:</legend>
                 <div class="range-filter">
                   <div class="price-controls">
-                    <span class="price-controls__text">От</span>
                     <label class="min-price">
                       <input class="min-price__input" type="text" name="min-price" value="0">
+                      <span class="price-controls__text">От</span>
                     </label>
                     <label class="max-price">
-                      <span class="max-price__text">До</span>
                       <input class="max-price__input" type="text" name="max-price" value="9000">
+                      <span class="max-price__text">До</span>
                     </label>
                   </div>
                 </div>
                 <div class="range-controls">
                   <div class="scale">
-                    <div class="bar"></div>
+                    <button class="toggle toggle-min" type="button">
+                      <span class="visually-hidden">Изменить минимальную цену</span>
+                    </button>
+                    <button class="toggle toggle-max" type="button">
+                      <span class="visually-hidden">Изменить максимальную цену</span>
+                    </button>
                   </div>
-                  <div class="toggle toggle-min" tabindex="0"></div>
-                  <div class="toggle toggle-max" tabindex="0"></div>
+                </div>
                 </div>
               </fieldset>
 
@@ -180,7 +184,7 @@
               </div>
               <div class="product-card-rating product-card-rating-four">
                 <h4 class="visually-hidden"> Отель 4 звезды</h4>
-                <span class="product-card-number">Рейтинг: 8,5</span>
+                <p class="product-card-number">Рейтинг: 8,5</p>
               </div>
             </li>
             <li class="product-card">
@@ -200,7 +204,7 @@
               </div>
               <div class="product-card-rating product-card-rating-four">
                 <h4 class="visually-hidden"> Отель 4 звезды</h4>
-                <span class="product-card-number">Рейтинг: 9,2</span>
+                <p class="product-card-number">Рейтинг: 9,2</p>
               </div>
             </li>
             <li class="product-card">
@@ -220,7 +224,7 @@
               </div>
               <div class="product-card-rating product-card-rating-three">
                 <h4 class="visually-hidden"> Отель 3 звезды</h4>
-                <span class="product-card-number">Рейтинг: 6,9</span>
+                <p class="product-card-number">Рейтинг: 6,9</span>
               </div>
             </li>
             <li class="product-card">
@@ -240,7 +244,7 @@
               </div>
               <div class="product-card-rating product-card-rating-two">
                 <h4 class="visually-hidden"> Отель 2 звезды</h4>
-                <span class="product-card-number">Рейтинг: 5,0</span>
+                <p class="product-card-number">Рейтинг: 5,0</p>
               </div>
             </li>
           </ul>
