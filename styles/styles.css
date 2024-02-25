@@ -300,6 +300,7 @@ img {
 /* advantages */
 .advantages {
   margin: 0 auto;
+  margin-bottom: 25px;
 }
 
 .advantages-title {
@@ -378,6 +379,7 @@ img {
 }
 
 .hotel-search--title {
+  margin-top: 0;
   padding: 0;
   font-size: 30px;
   font-weight: 700;
@@ -509,7 +511,7 @@ img {
 }
 
 .inner-header-title {
-  margin-top: 44px;
+  margin-top: 25px;
   padding: 0;
   font-size: 60px;
   font-weight: 700;
