@@ -108,7 +108,7 @@ img {
 
 .page-header-logo {
   width: 170px;
-  margin-right: 46px;
+  margin-right: 6px;
 }
 
 .navigation {
@@ -161,6 +161,7 @@ img {
 }
 
 .navigation-user-link--btn {
+  margin-left: 20px;
   // padding: 8px 50px 8px 50px;
   background-color:  var(--reddish-brown);
   // border-radius: 4px;
@@ -200,7 +201,6 @@ img {
 }
 
 .info-title {
-  margin-top: 69px;
   // padding: 0 20px;
   padding: 0;
   font-size: 30px;
@@ -378,7 +378,6 @@ img {
 }
 
 .hotel-search--title {
-  margin-top: 88px;
   padding: 0;
   font-size: 30px;
   font-weight: 700;
@@ -509,7 +508,7 @@ img {
 }
 
 .inner-header-title {
-  margin-top: 35px;
+  margin-top: 44px;
   padding: 0;
   font-size: 60px;
   font-weight: 700;
@@ -672,7 +671,7 @@ img {
 }
 
 .btn {
-margin-bottom: 46px;
+margin-bottom: 25px;
 // padding: 8px 50px;
 background: var(--reddish-brown);
 // border-radius: 4px;
