@@ -107,8 +107,8 @@ img {
 }
 
 .page-header-logo {
-  width: 160px;
-  margin-right: 46px;
+  width: 170px;
+  // margin-right: 46px;
 }
 
 .navigation {
@@ -155,7 +155,7 @@ img {
   text-align: center;
   background-color: #7DB54F;
   background-size: 20px 20px;
-  border-radius: 10px;
+  // border-radius: 10px;
 
   color: var(--basic-white);
 }
@@ -163,7 +163,7 @@ img {
 .navigation-user-link--btn {
   // padding: 8px 50px 8px 50px;
   background-color:  var(--reddish-brown);
-  border-radius: 4px;
+  // border-radius: 4px;
   font-size: 16px;
   font-weight: 700;
   line-height: 20px;
@@ -394,7 +394,7 @@ img {
 .hotel-search-btn {
   // height: 52px;
   // padding: 8px 50px 8px 50px;
-  border-radius: 4px;
+  // border-radius: 4px;
 
   color: var(--basic-white);
   text-transform: uppercase;
@@ -448,16 +448,17 @@ img {
   font-size: 18px;
   font-weight: 400;
   line-height: 24px;
-  border:none;
-  background: var(--basic-smoky-white);
-  border-radius: 4px 0 0 4px;
+  // border:none;
+  background-color: var(--basic-smoky-white);
+  background-color: transparent;
+  // border-radius: 4px 0 0 4px;
   color: rgb(0, 0, 0, 0.6);
 }
 
 .subscribe-form-btn {
   // height: 52px;
   background: var(--basic-blue-gray);
-  border-radius: 0 4px 4px 0;
+  // border-radius: 0 4px 4px 0;
   font-family: inherit;
   font-size: 20px;
   font-weight: 700;
@@ -466,7 +467,7 @@ img {
   color: var(--basic-white);
   text-transform: uppercase;
   border:none;
-  border-radius: 0 4px 4px 0;
+  // border-radius: 0 4px 4px 0;
 }
 
 
@@ -475,7 +476,7 @@ img {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  align-items: center;
+  // align-items: center;
   // padding: 45px 70px 35px;
   padding-left: 70px;
   padding-right: 70px;
@@ -513,7 +514,7 @@ img {
 
 /* breadcrumbs */
 .breadcrumbs {
-  display: flex;
+  // display: flex;
   // flex-direction: row;
   // justify-content: flex-start;
   // align-items:center
@@ -624,7 +625,8 @@ img {
   // width: 292px;
   // height:49px;
   // padding: 10px 20px;
-  border-radius: 4px;
+  background-color: transparent;
+  // border-radius: 4px;
   border: 2px solid #E5E5E5;
   font-family: inherit;
   font-size: inherit;
@@ -668,6 +670,12 @@ img {
 background: var(--reddish-brown);
 // border-radius: 4px;
 color: var(--basic-white);
+//styleName: Buttons/Button small;
+font-size: 16px;
+font-weight: 700;
+line-height: 20px;
+text-align: center;
+
 text-transform: uppercase;
 }
 
@@ -681,7 +689,7 @@ text-transform: uppercase;
 
 .product-card-number {
   background-color: var(--basic-smoky-white);
-  border-radius: 4px;
+  // border-radius: 4px;
 
   font-size: 16px;
   line-height: 20px;
@@ -700,7 +708,7 @@ text-transform: uppercase;
 .pagination--link {
   // padding: 10px;
   background: var(--basic-blue-gray);
-  border-radius: 4px;
+  // border-radius: 4px;
   font-size: 20px;
   font-weight: 700;
   line-height: 36px;
