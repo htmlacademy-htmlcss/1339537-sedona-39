@@ -77,11 +77,11 @@ img {
   overflow: hidden;
 }
 
-// .clear-ul {
-//   list-style: none;
-//   margin: 0;
-//   padding: 0;
-// }
+.clear-ul {
+  // list-style: none;
+  margin: 0;
+  // padding: 0;
+}
 
 :root {
   --basic-black: #000000;
@@ -107,7 +107,7 @@ img {
 }
 
 .page-header-logo {
-  width: 140px;
+  width: 160px;
   margin-right: 46px;
 }
 
@@ -200,7 +200,8 @@ img {
 }
 
 .info-title {
-  padding: 0 20px;
+  // padding: 0 20px;
+  padding: 0;
   font-size: 30px;
   font-weight: 700;
   line-height: 36px;
@@ -210,7 +211,8 @@ img {
 }
 
 .info-text {
-  padding: 0 20px;
+  // padding: 0 20px;
+  padding: 0;
   font-size: 22px;
   line-height: 26px;
   text-align: center;
@@ -272,7 +274,8 @@ img {
 }
 
 .info-item-title {
-  padding: 5px;
+  // padding: 5px;
+  padding: 0;
   font-size: 24px;
   font-weight: 700;
   line-height: 28px;
@@ -283,7 +286,8 @@ img {
 }
 
 .info-item-text {
-  padding: 5px;
+  // padding: 5px;
+  padding: 0;
   text-align: center;
 }
 
@@ -298,6 +302,7 @@ img {
 }
 
 .advantages-title {
+  padding: 0;
   font-size: 30px;
   font-weight: 700;
   line-height: 36px;
@@ -308,6 +313,7 @@ img {
 }
 
 .advantages-text {
+  padding: 0;
   font-size: 22px;
   line-height: 26px;
   text-align: center;
@@ -344,6 +350,7 @@ img {
 }
 
 .advantages-item-title {
+  padding: 0;
   font-size: 24px;
   font-weight: 700;
   line-height: 28px;
@@ -354,6 +361,7 @@ img {
 }
 
 .advantages-item-text {
+  padding: 0;
   text-align: center;
 }
 
@@ -366,6 +374,7 @@ img {
 }
 
 .hotel-search--title {
+  padding: 0;
   font-size: 30px;
   font-weight: 700;
   line-height: 36px;
@@ -376,6 +385,7 @@ img {
 }
 
 .hotel-search-text {
+  padding: 0;
   font-size: 22px;
   line-height: 26px;
   text-align: center;
@@ -406,6 +416,7 @@ img {
 }
 
 .subscribe--title {
+  padding: 0;
   font-size: 30px;
   font-weight: 700;
   line-height: 36px;
@@ -414,6 +425,7 @@ img {
 }
 
 .subscribe--text {
+  padding: 0;
   font-size: 22px;
   line-height: 26px;
   text-align: center;
@@ -491,6 +503,7 @@ img {
 }
 
 .inner-header-title {
+  padding: 0;
   font-size: 60px;
   font-weight: 700;
   line-height: 78px;
@@ -528,6 +541,7 @@ img {
   color: var(--basic-white);
 }
 .catalog-filter-title {
+  padding: 0;
   font-size: 20px;
   font-weight: 700;
   line-height: 24px;
@@ -581,14 +595,20 @@ img {
 .button__reset {
   background: none;
   border: none;
+
+  font-weight: 400;
+  text-transform: capitalize;
 }
 
 
 /* results */
 .results {
-  padding: 50px 70px;
+  // padding: 50px 70px;
+  padding-left: 70px;
+  padding-right: 70px;
 }
 .results-title {
+  padding: 0;
   font-size: 30px;
   font-weight: 700;
   line-height: 36px;
@@ -625,6 +645,7 @@ img {
 
 
 .product-card--title {
+  padding: 0;
   font-size: 24px;
   font-weight: 700;
   line-height: 28px;
