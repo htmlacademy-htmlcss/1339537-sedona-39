@@ -80,7 +80,7 @@ img {
 .clear-ul {
   // list-style: none;
   margin: 0;
-  padding: 0;
+  // padding: 0;
 }
 
 :root {
@@ -448,6 +448,7 @@ img {
 
 
 .subscribe-form-input {
+  display: block;
   // height: 52px;
   // padding: 12px 20px;
   font-size: 18px;
