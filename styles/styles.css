@@ -79,8 +79,8 @@ img {
 
 .clear-ul {
   // list-style: none;
-  // margin: 0;
-  // padding: 0;
+  margin: 0;
+  padding: 0;
 }
 
 :root {
@@ -108,7 +108,7 @@ img {
 
 .page-header-logo {
   width: 170px;
-  margin-right: 6px;
+  margin-right: 46px;
 }
 
 .navigation {
