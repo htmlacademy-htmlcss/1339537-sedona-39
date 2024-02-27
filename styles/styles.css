@@ -183,7 +183,6 @@ img {
 
 /* main */
 .hero {
-  margin-bottom: 70px;
   background-color:var(--black-darker);
   background-image: url("../images/hero-bg.png");
   background-repeat: no-repeat;
@@ -203,7 +202,6 @@ img {
 
 .info-list {
   margin: 0;
-  margin-bottom: 64px;
   padding: 0;
   // display: flex;
   // flex-direction: column;
@@ -219,7 +217,7 @@ img {
 
 .info-title {
   width: 800px;
-  margin: 30px auto 24px;
+  margin: 70px auto 24px;
   // padding: 0 20px;
   padding: 0;
   font-size: 30px;
@@ -302,7 +300,7 @@ img {
 }
 
 .info-item-title {
-  width: 175px;
+  // width: 175px;
   margin-top: 15px;
   margin-bottom: 44px;
   padding: 0;
@@ -340,7 +338,7 @@ img {
 
 .advantages-title {
   width: 500px;
-  margin-top: 0;
+  margin-top: 64px;
   margin-left: auto;
   margin-right: auto;
   margin-bottom: 20px;
@@ -468,7 +466,7 @@ img {
 
 .hotel-search-btn {
   margin-bottom: 96px;
-  padding: 8px 50px;
+  // padding: 8px 50px;
   // height: 52px;
   border-radius: 4px;
   font-size: 20px;
@@ -667,14 +665,14 @@ img {
   display: flex;
   flex-direction: row;
   align-items: flex-start;
-  gap: 72px;
+  // gap: 72px;
   padding-bottom: 56px;
 }
 
 .catalog-filter-group {
-  padding: 0;
-  margin: 0;
-  border: none;
+  // padding: 0;
+  // margin: 0;
+  // border: none;
 
   color: var(--basic-white);
 }
@@ -723,7 +721,7 @@ img {
 .button {
   // width: 191px;
   // height: 36px;
-  padding: 8px 50px;
+  // padding: 8px 50px;
   background: var(--basic-blue-gray);
   font-size: 16px;
   font-weight: 700;
@@ -812,11 +810,11 @@ img {
 
 .product-list {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  gap: 20px;
+  // grid-template-columns: repeat(3, 1fr);
+  // gap: 20px;
   list-style: none;
   margin: 0;
-  margin-bottom: 78px;
+  // margin-bottom: 78px;
   padding: 0;
 }
 
@@ -842,7 +840,7 @@ img {
 .product-card-wrap {
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
+  // justify-content: space-between;
   align-content:center;
   margin-top: 15px;
 }
@@ -863,12 +861,12 @@ img {
 .product-card-button {
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
+  // justify-content: space-between;
   margin-top: 17px;
 }
 
 .product-card-btn {
-  padding: 8px 26px;
+  // padding: 8px 26px;
   background: var(--reddish-brown);
   border-radius: 4px;
   color: var(--basic-white);
@@ -882,7 +880,7 @@ img {
 
 .product-card-btn--accent {
 
-  padding: 8px 19px;
+  // padding: 8px 19px;
   background: var(--basic-blue-gray);
 }
 
@@ -893,14 +891,13 @@ img {
 .product-card-rating {
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
+  // justify-content: space-between;
   align-items: center;
 }
 .star {
-  display: block;
-  height: 17px;
-  width: 105px;
-  background: red;
+  // display: block;
+  // height: 17px;
+  // width: 105px;
 }
 
 .product-card-number {
