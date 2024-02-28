@@ -108,7 +108,7 @@ img {
 
 .navigation {
   width: 100%;
-  // margin-top: -10px;
+  margin-top: -10px;
 }
 
 .navigation,
@@ -272,7 +272,7 @@ img {
 
   width: 220px;
   // margin-top: 15px;
-  margin-bottom: 44px;
+  // margin-bottom: 44px;
   padding: 0;
   font-size: 24px;
   font-weight: 700;
@@ -303,7 +303,7 @@ img {
 
 /* advantages */
 .advantages {
-  margin: 0 auto;
+  margin: 0 auto ;
 }
 
 .advantages-title {
@@ -322,9 +322,9 @@ img {
 }
 
 .advantages-text {
-  margin: 0 ;
+  // margin: 0 auto;
   padding: 0;
-  padding-bottom: 64px;
+  // padding-bottom: 64px;
   font-size: 22px;
   line-height: 26px;
   text-align: center;
@@ -394,8 +394,8 @@ img {
 }
 
 .hotel-search--title {
-  margin-top: 0;
-  margin-bottom: 20px;
+  // margin-top: 0;
+  // margin-bottom: 20px;
   padding: 0;
   font-size: 30px;
   font-weight: 700;
@@ -407,8 +407,8 @@ img {
 
 .hotel-search-text {
   width: 580px;
-  margin-top: 0;
-  margin-bottom: 54px;
+  // margin-top: 0;
+  // margin-bottom: 54px;
   padding: 0;
   font-size: 22px;
   line-height: 26px;
@@ -420,7 +420,7 @@ img {
   // padding: 8px 50px;
   font-size: 20px;
   font-weight: 700;
-  line-height: 36px;
+  // line-height: 36px;
   text-align: center;
   text-transform: uppercase;
   color: var(--basic-white);
@@ -445,8 +445,8 @@ img {
 }
 
 .subscribe--title {
-  margin: 0;
-  margin-bottom: 20px;
+  // margin: 0;
+  // margin-bottom: 20px;
   padding: 0;
   padding-top: 156px;
   font-size: 30px;
@@ -462,8 +462,8 @@ img {
 
 .subscribe--text {
   // max-width: 500px;
-  margin-top: 0;
-  margin-bottom: 55px;
+  // margin-top: 0;
+  // margin-bottom: 55px;
   padding: 0;
   font-size: 22px;
   line-height: 26px;
@@ -553,7 +553,7 @@ img {
 
 .contacts-phone {
   font-size: 40px;
-  line-height: 40px;
+  // line-height: 40px;
   text-align: center;
   text-transform: uppercase;
   color: var(--basic-black);
@@ -572,7 +572,7 @@ img {
 
 .inner-header-title {
   margin-top: 0;
-  margin-bottom: 7px;
+  // margin-bottom: 7px;
   padding: 0;
   padding-top: 35px;
   font-size: 60px;
@@ -754,7 +754,7 @@ img {
 }
 
 .product-card {
-  // padding: 20px;
+  padding: 20px;
   // border: 1px solid #E6E6E6;
   // border-radius: 4px;
 }
@@ -771,8 +771,8 @@ img {
 }
 
 .product-card-wrap {
-  display: flex;
-  flex-direction: row;
+  // display: flex;
+  // flex-direction: row;
   // justify-content: space-between;
 
   justify-content: start;
@@ -835,8 +835,8 @@ img {
 }
 
 .product-card-number {
-  margin: 0;
-  margin-top: 16px;
+  // margin: 0;
+  // margin-top: 16px;
   padding: 8px 22px 8px 23px;
   font-size: 16px;
   line-height: 20px;
