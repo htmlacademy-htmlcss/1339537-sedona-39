@@ -41,7 +41,7 @@ body {
 
 .main-container {
   flex-grow: 1;
-  // margin-top: -10px;
+  margin-top: -10px;
 }
 
 .container {
@@ -605,7 +605,7 @@ img {
 .catalog-filter {
   display: flex;
   flex-direction: row;
-  align-items: flex-start;
+  // align-items: flex-start;
   // gap: 72px;
   padding-bottom: 56px;
 }
@@ -618,6 +618,7 @@ img {
 }
 
 .catalog-filter-list {
+  margin: 0;
   padding: 0;
   list-style: none;
 }
@@ -744,9 +745,9 @@ img {
 }
 
 .product-list {
-  // display: grid;
-  // grid-template-columns: repeat(3, 1fr);
-  // gap: 20px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
   // margin: 0;
   // margin-bottom: 78px;
   padding: 0;
@@ -754,14 +755,20 @@ img {
 }
 
 .product-card {
+  display: grid;
+  grid-template-rows: auto 1fr 1fr 1fr;
+  justify-content: space-between;
+  align-items: start;
+  gap: 15px;
   padding: 20px;
   // border: 1px solid #E6E6E6;
   // border-radius: 4px;
 }
 
 .product-card--title {
-  margin-top: 15px;
+  // margin-top: 15px;
   margin-bottom: 0;
+  margin: 0;
   padding: 0;
   font-size: 24px;
   font-weight: 700;
@@ -771,13 +778,13 @@ img {
 }
 
 .product-card-wrap {
-  // display: flex;
-  // flex-direction: row;
-  // justify-content: space-between;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
 
-  justify-content: start;
+  // justify-content: start;
   align-content: center;
-  margin-top: 15px;
+  // margin-top: 15px;
 }
 
 .product-card-housing,
@@ -789,15 +796,15 @@ img {
 }
 
 .product-card-price {
-  // text-align: right;
+  text-align: right;
 }
 
 .product-card-button {
   display: flex;
   flex-direction: row;
-  // justify-content: space-between;
-  justify-content: start;
-  margin-top: 17px;
+  justify-content: space-between;
+  // justify-content: start;
+  // margin-top: 17px;
 }
 
 .product-card-btn {
@@ -824,8 +831,7 @@ img {
 .product-card-rating {
   display: flex;
   flex-direction: row;
-  // justify-content: space-between;
-  justify-content: start;
+  justify-content: space-between;
   align-items: center;
 }
 .star {
@@ -835,8 +841,8 @@ img {
 }
 
 .product-card-number {
-  // margin: 0;
-  // margin-top: 16px;
+  margin: 0;
+  margin-top: 16px;
   padding: 8px 22px 8px 23px;
   font-size: 16px;
   line-height: 20px;
@@ -848,8 +854,12 @@ img {
 
 /* pagination */
 .pagination {
-  display: flex;
-  flex-direction: row;
+  // display: flex;
+  // flex-direction: row;
+  // justify-content: start;
+  // align-items:center;
+  display: grid;
+  grid-template-columns: repeat(6, min-content);
   justify-content: start;
   align-items:center;
   gap: 8px;
