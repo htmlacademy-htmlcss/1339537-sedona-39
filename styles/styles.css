@@ -1106,21 +1106,22 @@ img {
   font-size: inherit;
   line-height: inherit;
   background-color: transparent;
+  background: url("../images/icons/arrow.svg");
+  background-repeat: no-repeat;
+  background-size: 12px 9px;
+  background-position: right 6% center;
   border: 2px solid var(--gainsborough);
   border-radius: 4px;
   appearance: none;
 }
 
-.select-control::before {
+/* .select-control::before {
   position: absolute;
   content: "";
   width: 12px;
   height: 9px;
-  background: url("../images/icons/arrow.svg");
-  background-repeat: no-repeat;
-  background-size: 12px 9px;
-  background-position: right 6% center;
-}
+
+} */
 
 .select-control:hover {
   border: 2px solid var(--blue-gray-dark);
