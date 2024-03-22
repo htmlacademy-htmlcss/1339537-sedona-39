@@ -91,10 +91,6 @@ body {
   flex-direction: column;
 }
 
-a {
-  text-decoration: none;
-}
-
 img {
   max-width: 100%;
   height: auto;
@@ -164,6 +160,7 @@ img {
   font-weight: 700;
   text-align: center;
   color: var(--basic-black);
+  text-decoration: none;
 }
 
 .navigation-link {
@@ -690,6 +687,7 @@ img {
   text-align: center;
   text-transform: uppercase;
   color: var(--basic-black);
+  text-decoration: none;
 }
 
 .contacts-phone:hover {
@@ -1201,6 +1199,10 @@ img {
   border-radius: 4px;
 }
 
+.product-card-link {
+  text-decoration: none;
+}
+
 .product-card-image {
   display: block;
   background-color: var(--basic-black-light);
@@ -1215,6 +1217,7 @@ img {
   line-height: 28px;
   font-weight: 700;
   text-align: left;
+  text-decoration: none;
   color: var(--basic-black);
 }
 
@@ -1251,6 +1254,7 @@ img {
   font-weight: 700;
   text-align: center;
   text-transform: uppercase;
+  text-decoration: none;
   color: var(--basic-white);
   background-color: var(--reddish-brown);
   border-radius: 4px;
@@ -1331,6 +1335,7 @@ img {
   line-height: 36px;
   font-weight: 700;
   text-align: center;
+  text-decoration: none;
   color: var(--basic-white);
   background-color: var(--basic-blue-gray);
   border-radius: 4px;
@@ -1340,6 +1345,7 @@ img {
   color: var(--basic-black);
   background-color: transparent;
 }
+
 .pagination-link--active {
   color: var(--basic-black);
   background-color: var(--basic-smoky-white);
