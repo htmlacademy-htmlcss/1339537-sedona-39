@@ -238,6 +238,7 @@ img {
   margin-left: 16px;
   margin-right: 16px;
   padding: 8px 35px;
+  font-family: "PT Sans", Arial, sans-serif;
   font-size: 16px;
   line-height: 20px;
   font-weight: 700;
@@ -528,6 +529,7 @@ img {
 .hotel-search-btn {
   margin-bottom: 96px;
   padding: 8px 50px;
+  font-family: "PT Sans", Arial, sans-serif;
   font-size: 20px;
   line-height: 36px;
   font-weight: 700;
@@ -682,18 +684,15 @@ img {
   padding: 45px 70px 35px;
 }
 
-.social {
-  width: 141px;
-  margin-right: 238px;
-}
-
 .social-list {
   display: flex;
   flex-direction: row;
   justify-content: flex-start;
   align-items: center;
   flex-wrap: wrap;
+  width: 141px;
   margin: 0;
+  margin-right: 238px;
   padding: 0;
   list-style: none;
 }
@@ -705,7 +704,6 @@ img {
   width: 47px;
   height: 40px;
   padding: 5px;
-
 }
 
 .social-item-link {
@@ -726,11 +724,8 @@ img {
   fill:var(--blue-gray-darker);
 }
 
-.contacts {
-  margin-right: auto;
-}
-
 .contacts-phone {
+  margin-right: auto;
   font-size: 40px;
   line-height: 40px;
   text-align: center;
